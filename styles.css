@@ -1,0 +1,73 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&display=swap');
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #f1c40f;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #f1c40f;
+    font-size: 28px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #f1c40f;
+}
+
+iframe {
+    margin-top: 20px;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    font-size: 14px;
+}
